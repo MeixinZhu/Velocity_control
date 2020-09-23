@@ -1,0 +1,2 @@
+model_checkpoint_path: "model_origin_4.001_NOCA.ckpt"
+all_model_checkpoint_paths: "model_origin_4.001_NOCA.ckpt"
