@@ -2,7 +2,7 @@
 Source code for paper Zhu, M., Wang, Y., Pu, Z., Hu, J., Wang, X., & Ke, R. (2020). Safe, efficient, and comfortable velocity control based on reinforcement learning for autonomous driving. Transportation Research Part C: Emerging Technologies, 117, 102662. https://www.sciencedirect.com/science/article/pii/S0968090X20305775 
 
 ## Description
-It is a very simple idea to use DDPG for car following velocity control. The key part is the design of reward function. If the reward is not properly designed, the vehicle will either has poor jerk performances or stop for there with zero speed (in this case the jerk is zero). So the weight between different objectives are important.
+Use DDPG for car following velocity control. The key part is the design of reward function. If the reward is not properly designed, the vehicle will either has poor jerk performances or stop there with zero speed (in this case the jerk is zero). So the weights between different objectives are important.
 
 ## How to run
 - Set up python environment by installing the required packages according to requirements.txt
