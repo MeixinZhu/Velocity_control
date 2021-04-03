@@ -4,6 +4,9 @@ Source code for paper Zhu, M., Wang, Y., Pu, Z., Hu, J., Wang, X., & Ke, R. (202
 ## Description
 Use DDPG for car following velocity control. The key part is the design of reward function. If the reward is not properly designed, the vehicle will either has poor jerk performances or stop there with zero speed (in this case the jerk is zero). So the weights between different objectives are important.
 
+## Data format
+Each element (cell or matrix) in the trainSet.mat and testSet.mat describes a car-following event. For each matrix (event), the columns are spacing, following vehicle speed, relative speed, leading vehilce speed. Events may have different durations. 
+
 ## How to run
 - Set up python environment by installing the required packages according to requirements.txt
 - Directly run Main.ipynb
