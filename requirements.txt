@@ -1,5 +1,5 @@
 pandas==0.25.1
-numpy==1.16.5
+numpy==1.22.0
 tqdm==4.36.1
 tensorflow==1.10.0
 cvxpy==1.0.25
